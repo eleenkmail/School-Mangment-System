@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./jo.css">
+		<title>School Managment System</title>
+	</head>
+	<body class="center">
+		<div class="container">
+			<form class="form">
+                <!-- student name -->
+              <header>For Insert New Data :</header>
+              <br>
+				<div class="from-control">
+					<label for="name">Student Name :&nbsp;&nbsp; </label>
+					<input type="text" id="name" placeholder="Eleen Kmail" />
+				</div>
+				<!-- student name -->
+
+				<!-- student id -->
+				<div class="from-control">
+					<label for="idNumber">Student IDnum :</label>
+					<input type="number" id="idNumber" placeholder="11923756" />
+				</div>
+				<!-- student id -->
+
+				<!-- student gdpa -->
+				<div class="from-control">
+					<label for="gpa">Student GPA : &nbsp;&nbsp;&nbsp;</label>
+					<input type="number" id="gpa" placeholder="3.72" />
+				</div>
+                <!-- student gdpa -->
+                <br>
+            </form>
+         
+           <!--................................for update.........................................-->
+            
+                <form class="form" id="v">
+                    <header>For Update Data :</header>
+                    <br>
+                    <!-- New student name -->
+                    <div class="from-control">
+                        <label for="name">New Student Name:&nbsp;&nbsp;</label>
+                        <input type="text" id="Newname" placeholder="jo aqra" />
+                    </div>
+                    <!-- student name -->
+    
+                    <!-- Same student id -->
+                    <div class="from-control">
+                        <label for="idNumber">Student IDnum:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                        <input type="number" id="NidNumber" placeholder="411420876" />
+                    </div>
+                    <!-- Same student id -->
+    
+                    <!-- New student gdpa -->
+                    <div class="from-control">
+                        <label for="gpa">New Student GPA :&nbsp;&nbsp;&nbsp;</label>
+                        <input type="number" id="Newgpa" placeholder="3.50" />
+                    </div>
+                    <!--    New student gdpa -->
+                    <br>
+                </form>
+                <button id="submit"  type="submit" >Add</button>
+                <button id="update" type="button">update</button>
+            <div>
+                <br>
+                <br>
+                <label for="Deleted-item">ID For Delete :</label>
+                <br>
+                <input type="number" id="deleted" placeholder="411420876" />
+                <button id="delete" type="button">Delete</button>
+                <br>
+            </div>
+            <div class="view">
+              
+                <div id="AddArea">
+                    <span >FOR ADDED ITEM :</span>
+                    <br>
+                    <br>
+                     <span style="width:60%;">Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> 
+                     <span style="width:40%;">ID&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> 
+                     <span style="width:40%;">GPA</span>
+                </div>
+               
+                 <div id="ShowArea">
+                    <span >LIST OF STUDENTS STORED :</span>
+                <br>
+                <br>
+                            <span style="width:60%;">Name&nbsp;&nbsp;</span> 
+                            <span style="width:40%;">ID&nbsp;&nbsp;</span> 
+                            <span style="width:40%;">GDPA</span>
+                           
+                          
+                    </div>
+                    <div class="a">
+                    <button id="show" type="button">Show</button>
+                    <button id="cleaar" type="button">Clear</button>
+                    <br>
+                </div>
+                </div>
+              
+              </div>
+            
+           
+            
+      
+		<script src="./jo.js"></script>
+		
+	</body>
+</html>

@@ -1,0 +1,116 @@
+*{
+    padding:0;
+    margin:0;
+
+}
+html,body{
+    width:100%;
+    height:100%;
+    background-color: thistle;
+}
+
+.center{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    padding:20px 20px;
+    margin-top: 20px;
+    background-color: white;
+width:70%;
+height:90%;
+border:1px solid black;
+}
+.form{
+   
+display:inline-block;
+    padding: 40px 80px 20px;
+    margin-bottom: 10px;
+}
+
+
+#submit{
+   margin-left: 150px;
+    height: 30px;
+    width: 100px;
+    border-radius: 4px;
+    background-color: #ffc5c5;
+}
+#delete{
+    height: 30px;
+    width: 100px;
+    border-radius: 4px;
+    background-color: #ffc5c5;
+}
+#update{
+    margin-right:150px;
+   float: right;
+    height: 30px;
+    width: 100px;
+    border-radius: 4px;
+    background-color: #ffc5c5;
+}
+#show{
+    
+    float: right;
+    height: 30px;
+    width: 100px;
+    border-radius: 4px;
+    background-color: #ffc5c5;
+}
+
+#cleaar{
+    float: right;
+        height: 30px;
+        width: 100px;
+        border-radius: 4px;
+        background-color: #ffc5c5;
+
+}
+.view{
+    margin-top: 20px;
+    width: 100%;
+    height:30%; 
+    display: flex;
+  
+}
+
+#AddArea {
+    
+    padding-left: 100px;
+    border-collapse: collapse;
+    border: black solid 1px;
+    width: 50%;
+    height: 100%;
+    font-size: 18px;
+    padding-bottom: 100px;
+  }
+ 
+
+#AddArea div{
+height: 20px;
+width: 100%;
+  } 
+#ShowArea{
+    padding-bottom: 100px;
+    padding-left: 100px;
+    border-collapse: collapse;
+    border: black solid 1px;
+    width: 50%;
+    height: 100%;
+    font-size: 18px;
+}
+#ShowArea div{
+    height: 20px;
+    width: 100%;
+      } 
+      input{
+        border-radius: 4px;
+        width: 200px;
+height:30px;
+      }
+.b{
+background-color: burlywood;
+}
